@@ -22,4 +22,4 @@ client.on('ready', () => {
   setInterval(checkTime, 1000);
 })
 
-client.login("MTAzNDUwOTEyNzAzODI3OTY5Mg.G8TnUO.F2IhQ7V3XBrAe9TxfRhW-iv9lek9aUOZvX5j3o")
+client.login(${{ secrets.TOKEN }})
